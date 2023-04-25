@@ -1,9 +1,9 @@
 // Importing the required modules
-const WebSocketServer = require('ws');
+const WebSocket = require('ws');
 
 
 // Creating a new websocket server
-const wss = new WebSocketServer.Server({port : 8080});
+const wss = new WebSocket.Server({port : 8080});
 
 // Setting up variables to initialize and keep track of inputs
 bluenotes = Array();
